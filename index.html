@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #root {
+        height: 100vh;
+        background: #0d1320;
+        overflow: hidden;
+      }
+      #date {
+        margin-top: 0px;
+        text-align: center;
+        font-size: 26vh;
+        font-weight: bold;
+        color: #e2ecfd;
+      }
+      #time {
+        text-align: center;
+        font-size: 56vh;
+        font-weight: bold;
+        line-height: 56vh;
+        color: #e2ecfd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #time .colon {
+        visibility: visible;
+        position: relative;
+        top: -4vh;
+      }
+      #time .hide {
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="./time.js"></script>
+  </body>
+</html>
